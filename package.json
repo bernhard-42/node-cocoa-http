@@ -1,0 +1,18 @@
+{
+  "name": "cocoa-node-http",
+  "version": "0.1.0",
+  "description": "Testing CocoaHTTPServer with coffeescript",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "objc"
+  ],
+  "author": "Bernhard Walter",
+  "license": "MIT",
+  "dependencies": {
+    "NodObjC": "^1.0.0",
+    "q": "^1.1.2"
+  }
+}
