@@ -5,7 +5,7 @@ Note:
 
 Needs a patched NodObjC 1.0.0. Add 
 
-    if(basetype == '@' || basetype == '#') return createObject(val, basetype);
+    else if (basetype[0] == '@') return createObject(val, '@');
 
 as line 182 in
 
